@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "uuid": "^11.1.0",
+    "validator": "^13.12.0"
+  },
+  "type": "module",
+  "name": "exer-04-javascript-basics-part-2-laqui976",
+  "description": "Rochelle Laqui  2022-06995 Exercise 4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
