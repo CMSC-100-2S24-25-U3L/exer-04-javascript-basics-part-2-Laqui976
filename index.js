@@ -12,3 +12,14 @@ function generateUniqueID(firstName, lastName) {
 
 console.log(generateUniqueID("Alan", "Turing"));
 
+function addAccount([firstName, lastName, email, age]){
+    if(firstName.length ===0 && lastName.length ===0 && email.length ===0 && age === null){
+        return "Cannot have an empty string";
+    }else{
+        if(age>18 && validator.isEmail(email)){
+            return true;
+        }
+    }
+}
+
+console.log(addAccount(['Alan', 'Turing', 'aturing@w3c.com', 58]));
